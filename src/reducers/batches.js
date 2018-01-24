@@ -3,7 +3,7 @@ import {
     CREATE_BATCH,
     FETCHED_BATCH,
     CREATE_STUDENT_BATCH,
-} from './actions/batches'
+} from '../actions/batches'
 
 export default (state = [], {type, payload} = {}) => {
   switch(type) {

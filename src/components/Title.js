@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import './Title.css'
+import './Title.sass'
 
 class Title extends PureComponent {
   render() {
